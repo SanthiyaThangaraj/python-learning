@@ -1,5 +1,3 @@
-
-# Simple calculator for iTokyo day 7 (DIY Friday)
 print("Python:Hey there 👋, what's your name")
 name = input("User: ")
 
