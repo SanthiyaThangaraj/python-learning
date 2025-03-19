@@ -10,7 +10,3 @@ for num in range(200):
     mynum.append(num)
 
 print(mynum[::2])
-
-#celsius to fahrenheit
-celsius=float(input("Enter degree: "))
-print(f"conversion: {celsius*1.8+32}")
