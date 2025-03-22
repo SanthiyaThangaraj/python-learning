@@ -1,0 +1,7 @@
+name=input("Name: ")
+age=int(input("Age:"))
+gender=input("Gender:")
+city=input("City:")
+japaneselevel=input("Japanese Level:")
+data=(name,age,gender,city,japaneselevel)
+print(data)
