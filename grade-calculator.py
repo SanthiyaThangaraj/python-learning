@@ -1,14 +1,14 @@
-ngrade=int(input("Enter a numeric grade:"))
-match ngrade:
-    case ngrade if 90 <=ngrade<= 100:
+calculate_grade=int(input("Enter a numeric grade:"))
+match calculate_grade:
+    case calculate_grade if 90 <=calculate_grade<= 100:
         print("A")
-    case ngrade if 80 <=ngrade<= 89:
+    case calculate_grade if 80 <=calculate_grade<= 89:
         print("B")
-    case ngrade if 70 <=ngrade<= 79:
+    case calculate_grade if 70 <=calculate_grade<= 79:
         print("C")
-    case ngrade if 60 <=ngrade<= 69:
+    case calculate_grade if 60 <=calculate_grade<= 69:
         print("D")
-    case ngrade if 0<=ngrade<60:
+    case calculate_grade if 0<=calculate_grade<60:
         print("F")
     case _:
         print("Invalid numeric grade")
