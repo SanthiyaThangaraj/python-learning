@@ -1,7 +1,7 @@
 #Create a class BankAccount with attributes account_holder, balance. Include methods to deposit, withdraw, and check balance.
 
 class bankAccount:
-    def bank(self, acc_hold, balance):
+    def __init__(self, acc_hold, balance):
         self.acc_hold=acc_hold
         self.balance=balance
 
@@ -19,7 +19,6 @@ class bankAccount:
             case "check balance":
                 print(f"Balance {self.balance} is in {self.acc_hold}'s account")
 
-money=bankAccount()
-money.bank("Santhiya", 1000)
+money=bankAccount("Santhiya", 1000)
 money.action()
             
